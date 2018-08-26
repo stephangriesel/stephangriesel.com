@@ -1,0 +1,14 @@
+{
+  "name": "site2018",
+  "version": "1.0.0",
+  "description": "Stephan Griesel's Portfolio Page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Stephan Griesel",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
