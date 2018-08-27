@@ -1,11 +1,10 @@
 .menu-btn {
     position: absolute;
     z-index:3;
-    right:10px;
+    right:20px;
     top:35px;
     cursor: pointer;
     @include easeOut;
-}
 
 .btn-line {
     width:28px;
@@ -13,4 +12,28 @@
     margin: 0 0 5px 0;
     background:#FFFFFF;
     @include easeOut;
+}
+
+// Changed to X when clicked
+&.close {
+    transform: rotate(180deg);
+
+    .btn-line {
+        // Line 1 - Rotate
+        &:nth-child(1) {
+            transform: rotate(45deg) translate(5px,5px);
+        }
+        // Line 2 - Hide
+        &:nth-child(2) {
+            display:none;
+        }
+        // Line 3 - Rotate
+        &:nth-child(3) {
+            transform: rotate(-45deg) translate(1px,-1px);
+        }
+    }
+
+}
+
+
 }
