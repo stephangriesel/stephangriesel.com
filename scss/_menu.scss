@@ -11,7 +11,7 @@
     height:3px;
     margin: 0 0 5px 0;
     background:#FFFFFF;
-    @include easeOut;
+    @include easeIn;
 }
 
 // Changed to X when clicked
@@ -103,6 +103,21 @@
 
         &.show {
             transform: translate3d(0, 0 ,0);
+        }
+    }
+
+    .nav-link {
+        display: inline-block;
+        margin:5px;
+        font-size:2rem;
+        //border:solid 2px #fff;
+        //border-radius: 10%;
+        padding:5px;
+        text-transform: uppercase;
+        &:hover {
+            //text-decoration:overline;
+            color:$secondary-color;
+            @include easeIn;
         }
     }
 }
