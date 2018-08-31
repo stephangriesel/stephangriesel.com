@@ -10,7 +10,7 @@
     width:28px;
     height:3px;
     margin: 0 0 5px 0;
-    background:#FFFFFF;
+    background:set-text-color($primary-color);
     @include easeIn;
 }
 
@@ -111,6 +111,7 @@
     }
 
     .nav-link {
+        color:set-text-color($primary-color);
         display: inline-block;
         margin:5px;
         font-size:2rem;
@@ -123,7 +124,7 @@
             color:$secondary-color;
             @include easeIn;
         }
-        
+
     }
 }
 
