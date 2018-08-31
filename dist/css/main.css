@@ -204,3 +204,10 @@ main {
     background: #0d0d0d;
     padding: 0.5rem;
     border-bottom: #dfcd66 5px solid; }
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: #1a1a1a;
+  color: #FFF;
+  height: 60px; }
