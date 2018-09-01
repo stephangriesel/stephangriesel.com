@@ -173,6 +173,27 @@ main {
     padding: 0.5rem;
     border-bottom: #dfcd66 5px solid; }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em; }
+  .projects img {
+    width: 100%;
+    border: solid #979797 3px; }
+    .projects img:hover {
+      border: solid #dfcd66 3px;
+      opacity: 0.8;
+      transition: all 0.5s ease-out; }
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem; }
+  .btn:hover {
+    background: #dfcd66;
+    color: #000; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
