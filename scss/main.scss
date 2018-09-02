@@ -130,7 +130,8 @@ main {
 
 // Button
  .btn {
-     display:inline-block;
+     display:block;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
      padding:0.5rem 1rem;
      border:0;
      margin-bottom:0.3rem;
@@ -142,11 +143,15 @@ main {
  }
 
  .btn-dark {
-
+     @extend .btn;
+     background:darken($primary-color, 40);
+     color: #f2f2f2;
  }
 
  .btn-light {
-
+    @extend .btn;
+    background:lighten($primary-color, 40);
+    color: #FFFFFF;
  }
 
 #main-footer {
