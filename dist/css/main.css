@@ -222,6 +222,10 @@ main {
   background: #666666;
   color: #FFFFFF; }
 
+.workstyle {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -248,7 +252,7 @@ main {
   div.menu-branding {
     float: none;
     width: 100%;
-    min-height: 0; }
+    padding-top: 1rem; }
     ul.menu-nav.show,
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
@@ -260,7 +264,6 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/portrait_small.jpg");
       width: 150px;
       height: 150px; }
   .about-info {
